@@ -149,12 +149,3 @@ defmodule Day5.Part2 do
     Api.get_input(5) |> String.trim()
   end
 end
-
-# 389056265 -> za duze
-# 137643946
-# 0 - 389056265 -> odpowiedź
-
-# czyli source na ostatnim musi być pomiędzy 114197007 a 114197007 + 389056265
-# albo nieruszony
-
-# Trzeba od tyłu lecieć

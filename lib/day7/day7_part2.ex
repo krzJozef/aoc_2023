@@ -148,9 +148,3 @@ defmodule Day7.Part2 do
     Api.get_input(7) |> String.trim()
   end
 end
-
-[
-  %{a: 1, b: 1},
-  %{a: 2, b: 2},
-  %{a: 2, b: 1}
-]
