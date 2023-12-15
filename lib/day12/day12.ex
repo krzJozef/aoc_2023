@@ -53,6 +53,3 @@ defmodule Day12 do
 
   def load(:input), do: Api.get_input(12) |> String.trim()
 end
-
-3_476_169_006_222
-3_400_000_000_000

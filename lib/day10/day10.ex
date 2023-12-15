@@ -75,14 +75,6 @@ defmodule Day10 do
     end)
   end
 
-  defp example do
-    "-L|F7
-7S-7|
-L|7||
--L-J|
-L|-JF"
-  end
-
   defp load do
     Api.get_input(10) |> String.trim()
   end

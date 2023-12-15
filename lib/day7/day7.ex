@@ -98,14 +98,6 @@ defmodule Day7 do
     end)
   end
 
-  defp example do
-    "32T3K 765
-  T55J5 684
-  KK677 28
-  KTJJT 220
-  QQQJA 483"
-  end
-
   defp load do
     Api.get_input(7) |> String.trim()
   end

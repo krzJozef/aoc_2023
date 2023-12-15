@@ -51,12 +51,6 @@ defmodule Day9.Part2 do
     Enum.zip_with(numbers, tail, fn x, y -> y - x end)
   end
 
-  defp example do
-    "0 3 6 9 12 15
-    1 3 6 10 15 21
-    10 13 16 21 30 45"
-  end
-
   defp load do
     Api.get_input(9) |> String.trim()
   end

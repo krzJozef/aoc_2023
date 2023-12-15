@@ -34,11 +34,6 @@ defmodule Day6.Part2 do
     %{time: time, distance: distance}
   end
 
-  defp example do
-    "Time:      7  15   30
-    Distance:  9  40  200"
-  end
-
   defp load do
     Api.get_input(6) |> String.trim()
   end

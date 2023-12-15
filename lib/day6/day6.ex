@@ -42,11 +42,6 @@ defmodule Day6 do
     end)
   end
 
-  defp example do
-    "Time:      7  15   30
-    Distance:  9  40  200"
-  end
-
   defp load do
     Api.get_input(6) |> String.trim()
   end

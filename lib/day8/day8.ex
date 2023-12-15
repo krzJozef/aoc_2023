@@ -66,26 +66,6 @@ defmodule Day8 do
     String.trim(pattern)
   end
 
-  defp example1 do
-    "RL
-
-    AAA = (BBB, CCC)
-    BBB = (DDD, EEE)
-    CCC = (ZZZ, GGG)
-    DDD = (DDD, DDD)
-    EEE = (EEE, EEE)
-    GGG = (GGG, GGG)
-    ZZZ = (ZZZ, ZZZ)"
-  end
-
-  defp example2 do
-    "LLR
-
-    AAA = (BBB, BBB)
-    BBB = (AAA, ZZZ)
-    ZZZ = (ZZZ, ZZZ)"
-  end
-
   defp load do
     Api.get_input(8) |> String.trim()
   end

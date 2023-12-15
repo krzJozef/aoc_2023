@@ -1,9 +1,6 @@
 defmodule Day5.Part2 do
   def call do
-    data = load_example()
     data = load()
-
-    # seeds = load_seeds(data)
 
     posibble_results = 1..389_056_265 |> Enum.into([])
 
