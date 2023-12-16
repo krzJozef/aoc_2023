@@ -11,9 +11,6 @@ defmodule Day16 do
   end
 
   def move(current_coordinates, current_direction, visited_tiles, grid) do
-    IO.inspect(current_coordinates, label: "CURRENT")
-    IO.inspect(visited_tiles |> length(), label: "VISITED")
-
     if current_coordinates in visited_tiles do
       visited_tiles
     else
@@ -45,8 +42,7 @@ defmodule Day16 do
   end
 
   def make_step(x, y, direction, grid) do
-    current_tile = grid |> Enum.at(y) |> Enum.at(x) |> IO.inspect(label: "CURRENT TILE")
-    IO.puts("---------------------------")
+    current_tile = grid |> Enum.at(y) |> Enum.at(x)
 
     case switch_direction(current_tile, direction) do
       :up ->
